@@ -1,3 +1,5 @@
+# Original README manifest from chrissank/deploy-firebase-functions
+
 # Deploy to Firebase Functions With Project Targets!
 
 A GitHub Action to deploy to Firebase Functions that is able to deploy to different projects.  Need to deploy to production on one branch, then to development on another? Specify a 'target' by using the <key, value> set in your `firebaserc` file. For example:
