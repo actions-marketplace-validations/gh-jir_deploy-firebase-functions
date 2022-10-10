@@ -1,4 +1,4 @@
-name: 'Deploy to Firebase Functions with targets'
+name: 'Deploy to Firebase Functions with targets using node v16'
 author: 'Adu Williams <aduwillie@gmail.com>, Chris Sankey, Jir Wong <jir@goodhuman.me>'
 description: 'A GitHub Action to deploy to Firebase Functions modified to allow production or development deployment'
 runs:
