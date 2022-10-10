@@ -1,6 +1,6 @@
 # Deploy to Firebase Functions With Project targets
 
-*Forked from chrissank/deploy-firebase-functions, updated to use node v16 *
+*Forked from chrissank/deploy-firebase-functions, updated to use node v16*
 
 A GitHub Action to deploy to Firebase Functions that is able to deploy to different projects.  
 Need to deploy to production on one branch, then to development on another? Specify a 'target' by using the <key, value> set in your `firebaserc` file. For example:
