@@ -32,10 +32,12 @@ jobs:
     - name: Check out code
       uses: actions/checkout@master
     - name: Deploy to Firebase
-      uses: chrissank/deploy-firebase-functions@1.0.0
+      uses: gh-jir/deploy-firebase-functions@2.0.0
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         TARGET: default
+        RUN_NPM_CI: true
+        RUN_NPM_BUILD: true
 ```
 
 ## Contribution
